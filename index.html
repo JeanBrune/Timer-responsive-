@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Timer</title>
+  <title>Modelo</title>
   <link rel="stylesheet" href="./css/contador.css">
 </head>
 
@@ -20,9 +20,9 @@
     </div>
 
     <div class="botoes">
-      <button class="iniciar btn" onclick="iniciar()">Iniciar</button>
-      <button class="pausar btn" onclick="pausar()" disabled >Pausar</button>
-      <button class="zerar btn" onclick="zerar()">Zerar</button>
+      <button class="iniciar btn" id="btn_iniciar" onclick="iniciar()">▶</button>
+      <button class="pausar btn escondido" id="btn_pausar" onclick="pausar()">⏸︎</button>
+      <button class="zerar btn" id="btn_zerar" onclick="zerar()"> ⏹</button>
     </div>
   </section>
 
